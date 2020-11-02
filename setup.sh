@@ -1,11 +1,11 @@
-mkdir -p ~/.flask/
+mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
 email = \"your-email@domain.com\"\n\
-" > ~/.flask/credentials.toml
+" > ~/.streamlit/credentials.toml
 echo "\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
-" > ~/.flask/config.toml
+" > ~/.streamlit/config.toml
