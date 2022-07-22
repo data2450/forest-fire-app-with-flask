@@ -1,1 +1,1 @@
-# forest-fire-app-with-flask
+# forest-fire-app-with-stremlit
